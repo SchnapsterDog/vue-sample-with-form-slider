@@ -1,0 +1,253 @@
+.desctop_img {
+  @media (max-width: 767.98px) {
+    display: none;
+  }
+}
+.mobile_img {
+  display: none;
+  @media (max-width: 767.98px) {
+    display: block;
+  }
+}
+@media (min-width: 1200px) {
+  .container {
+      max-width: 970px;
+  }
+}
+.container-min {
+  max-width: 770px;
+  margin-left: auto;
+  margin-right: auto;
+  @media (max-width: 767.98px) {
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+  &-dop {
+    max-width: 880px;
+    @media (max-width: 767.98px) {
+      margin-left: 15px;
+      margin-right: 15px;
+      padding-left: 0px;
+      padding-right: 0px;
+    }
+  }
+}
+.row-min {
+  margin-left: -8px;
+  margin-right: -8px;
+  &.mb-30 {
+    @media (max-width: 767.98px) {
+      margin-bottom: 0px;
+    }
+  }
+}
+.col-min {
+  padding-left: 8px;
+  padding-right: 8px;
+  @media (max-width: 767.98px) {
+    margin-bottom: 15px;
+  }
+}
+.inner-container-min-dop {
+  padding-left: 55px;
+  padding-right: 55px;
+  @media (max-width: 767.98px) {
+    padding-left: 0px;
+    padding-right: 0px;
+  }
+}
+.border-top-b {
+  border-top: 1px solid #0289c4;
+}
+.border-bottom-b {
+  border-bottom: 1px solid #0289c4;
+}
+.wrapper-i {
+  border: 1px solid #0289c4;
+  border-radius: 100px;
+  height: 20px;
+  width: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  float: right;
+  color: #0289c4;
+  margin-bottom: 10px;
+  cursor: pointer;
+}
+
+.text {
+  font-size: 14px;
+  line-height: 1.4;
+}
+
+.f10 {
+  @media (max-width: 767.98px) {
+    font-size: 10px;
+  }
+  
+}
+
+.min-text {
+  font-size: 12px;
+  line-height: 15px;
+}
+.note {
+  display: block;
+  margin-top: 10px;
+}
+.section_step {
+  background-color: $blue;
+  padding: 15px 30px 10px;
+  display: flex;
+  align-items: center;
+  .big_numeral {
+    font-size: 130px;
+    font-weight: 600;
+    line-height: 1;
+    color: #ffffff;
+    margin-right: 15px;
+    top: 16px;
+    position: relative;
+    @media (max-width: 991.98px) {
+      font-size: 50px;
+    }
+    @media (max-width: 767.98px) {
+      font-size: 140px;
+    }
+  }
+}
+.inner-form-block-dop {
+  margin-bottom: 95px;
+  @media (max-width: 767.98px) {
+    margin-bottom: 40px;
+  }
+}
+.inner-form-block-last {
+  @media (max-width: 767.98px) {
+    margin-bottom: 50px;
+  }
+}
+.mb-20-mob {
+  @media (max-width: 767.98px) {
+    //margin-bottom: 0px !important;
+  }
+}
+.inner-section_step {
+  .min-text {
+    @media (max-width: 991.98px) {
+      font-size: 13px;
+    }
+    @media (max-width: 767.98px) {
+      font-size: 16px;
+      line-height: 22px;
+    }
+  }
+}
+.left_block {
+  padding-right: 20px;
+  @media (max-width: 991.98px) {
+    padding-right: 0px;
+  }
+}
+.right_block {
+  padding-left: 20px;
+  @media (max-width: 991.98px) {
+    padding-left: 0px;
+  }
+}
+.venus_block {
+  background-color: #0289c4;
+  text-align: center;
+  padding: 20px 10px 35px;
+  .h4 {
+    height: 70px;
+    margin-bottom: 0px;
+  }
+}
+.swipper_bottom {
+  margin-bottom: 99px;
+
+  @media (max-width: 767.98px) {
+    margin-bottom: 40px !important;
+  }
+}
+.row_mobile {
+  @media (max-width: 767.98px) {
+    margin-left: -15px;
+    margin-right: -15px;
+  }
+}
+.navbar-brand {
+  @media (max-width: 991.98px) {
+    max-width: 74px;
+  }
+}
+.wrapper_social_block {
+  .text {
+    display: inline-block;
+  }
+  border-bottom: 1px solid #cccccc;
+  padding-bottom: 15px;
+  .soc_img {
+    margin-right: 5px;
+  }
+}
+.footer-inner {
+  border-bottom: 1px solid #cccccc;
+  margin-bottom: 15px;
+}
+.menu-title {
+  font-size: 16px;
+  margin-bottom: 15px;
+  color: #717171;
+  &-dop {
+    margin-bottom: 34px;
+    @media (max-width: 991.98px) {
+      margin-bottom: 20px;
+    }
+  }
+}
+.menu_link {
+  font-size: 12px;
+  margin-bottom: 15px;
+  color: #0289c4;
+  text-decoration: none;
+  display: inline-block;
+}
+.footer {
+  margin-top: 50px;
+  @media (max-width: 991.98px) {
+    text-align: center;
+  }
+  .thumbnails {
+    margin-bottom: 0px;
+    .copy-right-bottom {
+      font-size: 11px;
+      line-height: 25px;
+      display: inline-block;
+      margin-right: 6px;
+      margin-bottom: 10px;
+      color: #535353;
+      @media (max-width: 479.98px) {
+        margin-right: 2px !important;
+      }
+    }
+    .brand_link {
+      font-size: 12px;
+      line-height: 25px;
+      border-right: 1px solid #535353;
+      color: #535353;
+      padding-right: 10px;
+      text-decoration: none;
+      @media (max-width: 479.98px) {
+        padding-right: 5px !important;
+      }
+    }
+  }
+}
+.footer-menu {
+  @media (max-width: 479.98px) {
+    margin-bottom: 0px;
+  }
+}

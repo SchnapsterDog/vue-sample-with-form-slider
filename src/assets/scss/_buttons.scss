@@ -1,0 +1,55 @@
+.btn:focus {
+  outline: none !important;
+  box-shadow: none;
+}
+.btn {
+  font-size: 20px;
+  margin: 0 auto 15px;
+  color: #fff;
+  transition: all 0.3s;
+  white-space: normal;
+  line-height: 1.36;
+  text-align: center;
+  font-weight: 600;
+  padding: 12px 15px 7px;
+  text-transform: uppercase;
+  border-radius: 0rem;
+  @media (max-width: 374.98px) {
+    font-size: 18px;
+  }
+  &.disabled { opacity: 0.5; }
+  &-blue {
+    background-color: #0289c4;
+    width: 100%;
+    margin-top:50px;
+    .arrow_right {
+      max-width: 20px;
+      float: right;
+      padding-top: 2px;
+    }
+    .arrow_left {
+      max-width: 20px;
+      float: left;
+      padding-top: 2px;
+      margin-right: 2px;
+    }
+    &:hover {
+      background-color: #0289c4;
+      color: #ffffff;
+    }
+  }
+}
+.senden_btn {
+  display: none;
+}
+.senden {
+  .senden_btn {
+    display: inline-block;
+  }
+  .weiter_btn {
+    display: none;
+  }
+}
+.vielen {
+  display: none;
+}

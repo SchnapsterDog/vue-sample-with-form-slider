@@ -1,0 +1,90 @@
+body, html {
+  color: #535353;
+  font-family: 'CentraleSans', sans-serif;
+  font-size: 14px;
+  background: #ffffff;
+  line-height: 1.2;
+  height: 100%;
+}
+h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
+  font-weight: 400;
+  line-height: 1.2;
+  color: #0289c4;
+}
+h1, .h1, h2, .h2, h3, .h3 {
+  margin-top: 20px;
+  margin-bottom: 15px;
+}
+h1, .h1 {font-size: 40px;}
+h2, .h2 {
+  font-size: 18px;
+  text-transform: uppercase;
+  color: #0289c4;
+  @media (max-width: 767.98px) {
+    font-size: 22px;
+  }
+  @media (max-width: 374.98px) {
+    font-size: 18px;
+  }
+}
+h4, .h4 {font-size: 18px;}
+a {
+  color: #1d81d9;
+  outline: none;
+  text-decoration: underline;
+}
+p {margin: 0px;}
+a:focus,
+a:hover {
+  color: #0289c4;
+}
+ul, ol {
+  padding: 0;
+  webkit-padding: 0;
+  moz-padding: 0;
+  list-style: none;
+}
+.color-white {color: $white;}
+.color-green {color: $green;}
+.border-none {border: none !important;}
+.text-uppercase {text-transform: uppercase;}
+.fw-300 {font-weight: 300;}
+.fw-500 {font-weight: 500;}
+.fw-600 {font-weight: 600;}
+.fw-700 {font-weight: 700;}
+.br-0   {border-radius: 0px !important;}
+.lh-16  {line-height: 1.6;}
+.pb-15  {padding-bottom: 15px !important;}
+.pl-20  {padding-left: 20px !important;}
+.pr-20  {padding-right: 20px !important;}
+.pt-20  {padding-top: 20px !important;}
+.pt-60  {padding-top: 60px !important;}
+.pb-10  {padding-bottom: 10px !important;}
+.pb-15  {padding-bottom: 15px !important;}
+.pb-20  {padding-bottom: 20px !important;}
+.pb-30  {padding-bottom: 30px !important;}
+.p-20   {padding: 20px !important;}
+.p-30   {padding: 30px !important;}
+.mt-3px {margin-top: 3px !important;}
+.mt-10  {margin-top: 10px !important;}
+.mt-15  {margin-top: 15px !important;}
+.mt-20  {margin-top: 20px !important;}
+.mt-25  {margin-top: 25px !important;}
+.mt-30  {margin-top: 30px !important;}
+.mt-35  {margin-top: 35px !important;}
+.mt-50  {margin-top: 50px;}
+.mb-10  {margin-bottom: 10px;}
+.mb-15  {margin-bottom: 15px;}
+.mb-20  {margin-bottom: 20px;}
+.mb-25  {margin-bottom: 25px;}
+.mb-30  {
+  margin-bottom: 30px;
+  @media (max-width: 574.98px) {
+    margin-bottom: 15px;
+  }
+}
+.mb-35  {margin-bottom: 35px;}
+.mb-40  {margin-bottom: 40px;}
+.mb-50  {margin-bottom: 50px;}
+.mb-55  {margin-bottom: 55px;}
+.mb-100 {margin-bottom: 100px;}
