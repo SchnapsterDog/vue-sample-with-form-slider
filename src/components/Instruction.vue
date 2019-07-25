@@ -1,5 +1,6 @@
 <template>
-  <div class="instruction" id="instruction">
+  <div  id="instruction"
+        class="instruction">
     <div class="container-min">
       <h2 class="h2">Lorem Ipsum</h2>
       <p class="text mb-25">

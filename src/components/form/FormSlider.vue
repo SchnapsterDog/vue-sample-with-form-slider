@@ -1,5 +1,6 @@
 <template>
-  <div class="form-slider container-min mt-50">
+  <div id="form-slider"
+       class="form-slider container-min mt-50">
     <div class="form_content">
       <swiper :options="swiperOption" 
               @slideChange="slideChange($event)"

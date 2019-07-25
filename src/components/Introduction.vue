@@ -1,5 +1,6 @@
 <template>
-  <div class="introduction">
+  <div id="introduction"
+       class="introduction">
     <div class="container-min"></div>
     <div class="row_mobile">
       <div class="mt-10 mb-25">

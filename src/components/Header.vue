@@ -1,6 +1,7 @@
 <template>
   <div class="container">
-    <header class="flexi-header p-30 mt-20">
+    <header id="header"
+            class="flexi-header p-30 mt-20">
       <nav class="navbar navbar-expand-lg navbar-light">
         <a href="#" target="_blank" class="navbar-brand custom-link">
           Rampit LLC Sample
@@ -26,32 +27,24 @@
         >
           <ul class="navbar-nav">
             <li class="nav-item">
-              <a class="nav-link active"
-                 @click.prevent>
-                Link 1
-              </a>
+               <scroll-link :href="'#footer'"
+                            :linkName="'Sample Link 1'"
+               ></scroll-link>
             </li>
             <li class="nav-item">
-              <a class="nav-link"
-                 href="#"
-                 
-              >
-                Link 2
-              </a>
+               <scroll-link :href="'#header'"
+                            :linkName="'Sample Link 2'"
+               ></scroll-link>
             </li>
             <li class="nav-item">
-              <a class="nav-link"
-                 href="#"
-              >
-                Link 3
-              </a>
+               <scroll-link :href="'#footer'"
+                            :linkName="'Sample Link 3'"
+               ></scroll-link>
             </li>
             <li class="nav-item">
-              <a class="nav-link border-none"
-                 href="#"
-              >
-                Link 4
-              </a>
+              <scroll-link :href="'#footer'"
+                            :linkName="'Sample Link 4'"
+               ></scroll-link>
             </li>
           </ul>
         </div>
@@ -61,10 +54,15 @@
 </template>
 
 <script>
+import ScrollLink from './ScrollLink'
+
 export default {
   name: 'Header',
   props: {
     hideMenu: Boolean
+  },
+  components: {
+    ScrollLink
   },
   data () {
     return {
@@ -72,6 +70,9 @@ export default {
     }
   },
   methods: {
+    scrollTo(selector) {
+      document.querySelector(selector).scrollIntoView({ behavior: 'smooth'})
+    },
     toggleClass() {
       this.isMobile =! this.isMobile
     }

@@ -1,5 +1,6 @@
 <template>
-  <footer class="footer mb-20 text-center">
+  <footer id="footer"
+          class="footer mb-20 text-center">
     <div class="container">
       <div class="footer-inner">
         <div class="row">

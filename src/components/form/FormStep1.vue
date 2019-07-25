@@ -93,10 +93,15 @@
 </template>
 
 <script>
-import ValidationMessage from '../ValidationMessage';
+import ValidationMessage from '../ValidationMessage'
 
 export default {
   name: 'form-step-1',
+  data(){
+    return {
+     
+    }
+  },
   components: {
     ValidationMessage
   },
